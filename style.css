@@ -1,1 +1,116 @@
+@font-face
+{
+    font-family: journalFont;
+    src: url("./fonts/journal-webfont.woff");
+}
+@font-face 
+{
+    font-family: journalFont2;
+    src: url("./fonts/journal-webfont.woff2");
+}
+@font-face 
+{
+    font-family: typeWritterFont;
+    src: url("./fonts/veteran_typewriter-webfont.woff");
+}
+@font-face 
+{
+    font-family: typeWritterFont2;
+    src: url("./fonts/veteran_typewriter-webfont.woff2");
+}
+
+form
+{
+    font-family: typeWritterFont, sans-serif;
+    font-size: 1em;
+
+    display: flex;
+    background-color: white;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    width: 740px;
+    height: 498px;
+}
+section
+{
+    width: 50%;
+    height: 100%;
+}
+section:first-of-type>p
+{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+section:first-of-type>textarea
+{
+    font-family: journalFont, sans-serif;
+    font-size: 2em;
+
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    height: 50%;
+    border: none;
+}section:first-of-type>textarea:focus
+{
+    background-color: lightgray;
+    outline: none;
+}
+section:last-of-type
+{
+}
+
+label:first-of-type
+{
+    margin-left: 40px;
+}
+
+label
+{
+    font-family: typeWritterFont, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+
+    margin-right: 10px;
+    margin-left: 25px;
+}
+input
+{
+    font-family: journalFont, sans-serif;
+    font-size: 2em;
+
+    border: none;
+    background-color: transparent;
+    
+    height: 20px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+input:first-of-type
+{
+    margin-top: 195px;
+}
+input:focus
+{
+    outline: none;
+    background-color: lightgray;
+
+}
+
+button
+{
+    font-family: typeWritterFont, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+
+    background-color: white;
+    border: black solid;
+    border-radius: 8px;
+    margin-top: 20px;
+    transform: rotate(-1.5deg)
+}
+button::after
+{
+    content: ">>>";
+}
 
